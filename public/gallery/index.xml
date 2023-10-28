@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image Gallery on BL Portfolio</title>
-    <link>https://blipovski.github.io/Portfolio-Website/gallery/</link>
+    <link>blipovski.github.io/gallery/</link>
     <description>Recent content in Image Gallery on BL Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jun 2022 18:35:46 +0530</lastBuildDate><atom:link href="https://blipovski.github.io/Portfolio-Website/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Jun 2022 18:35:46 +0530</lastBuildDate><atom:link href="blipovski.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
