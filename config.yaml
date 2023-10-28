@@ -1,4 +1,4 @@
-baseURL: "https://blipovski.github.io/Portfolio-Website/"
+baseURL: "hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "BL Portfolio"
 theme: hugo-profile
