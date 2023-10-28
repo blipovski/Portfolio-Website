@@ -1,4 +1,4 @@
-baseURL: "blipovski.github.io"
+baseURL: "https://blipovski.github.io/"
 languageCode: "en-us"
 title: "BL Portfolio"
 theme: hugo-profile
@@ -55,7 +55,7 @@ Menus:
 params:
   title: "BL Portfolio"
   description: Text about my cool site
-  staticPath: ""  # The path to serve the static files from
+  staticPath: "/Portfolio-Website/"  # The path to serve the static files from
   favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
