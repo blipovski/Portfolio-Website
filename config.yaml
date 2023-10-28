@@ -1,6 +1,6 @@
 baseURL: "https://blipovski.github.io/Portfolio-Website/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "BL Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "BL Portfolio"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -61,7 +61,7 @@ params:
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
-  useBootstrapCDN: false
+  useBootstrapCDN: true
 
   # If you want to load dynamically responsive images from Cloudinary
   # This requires your images to be uploaded + hosted on Cloudinary
