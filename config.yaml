@@ -141,6 +141,8 @@ params:
           url: https://github.com/blipovski
         - icon: fab fa-orcid
           url: https://orcid.org/0000-0003-3148-301X
+        # - icon: fab fa-scholar
+          # url: https://scholar.google.ca/citations?user=ppYRqFEAAAAJ&hl=en&inst=17001591832933267808
       customIcons:
         - icon: /fav.png
           url: "https://lipovski.ca"
@@ -151,9 +153,10 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+      I'm Ben Lipovski, a passionate health and wellbeing advocate researching ways to transform the healthcare and social landscape to promote health equity and individual empowerment. With a background in Kinesiology and health promotion, I strive to challenge the status quo, unravel solutions, and empower individuals to lead healthier, profoundly purposeful lives. I employ a human-first philosophy to strength-based methodologies, resulting in a more impactful approach that emphasizes intersectionality as authenticity. 
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am currently driven by the ambition to pursue graduate studies in population and public health, with an emphasis on exploring the sociocultural aspects of addition. More specifically, my interest lies in understanding the social construction and normalization of drug use within the university environment, particularly in the context of the widespread usage of study drugs. The objective of my study is to advocate for harm reduction and improve drug literacy, empowering individuals to make informed decisions that enhance their overall health and well-being.
+
     skills:
       enable: true
       title: "Research Interests:"
