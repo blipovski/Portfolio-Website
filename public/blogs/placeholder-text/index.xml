@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Placeholder Text on BL Portfolio</title>
-    <link>https://blipovski.github.io/blogs/placeholder-text/</link>
+    <link>https://lipovski.ca/blogs/placeholder-text/</link>
     <description>Recent content in Placeholder Text on BL Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Apr 2021 22:41:10 +0530</lastBuildDate><atom:link href="https://blipovski.github.io/blogs/placeholder-text/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Apr 2021 22:41:10 +0530</lastBuildDate><atom:link href="https://lipovski.ca/blogs/placeholder-text/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
