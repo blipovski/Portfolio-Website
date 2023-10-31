@@ -39,11 +39,11 @@ This personal portfolio website comes with a range of features and functionaliti
 
 To get started with your Hugo website, follow these steps:
 
-## 1. Install Hugo
+### 1. Install Hugo
 
 First, you need to install Hugo. You can download the latest version from the [Hugo releases page](https://github.com/gohugoio/hugo/releases).
 
-## 2. Verify Installation
+### 2. Verify Installation
 
 After installation, open your terminal and run the following command to ensure Hugo is installed correctly:
 
@@ -53,7 +53,7 @@ hugo version
 
    You should see the installed Hugo version displayed.
 
-## 3. Create a New Hugo Site
+### 3. Create a New Hugo Site
 
 Navigate to the directory where you want to create your Hugo website. Run the following command to create a new site:
 
@@ -63,7 +63,7 @@ hugo new site my-portfolio
 
 Replace `my-portfolio` with the name of your website.
 
-## 4. Choose a Theme
+### 4. Choose a Theme
 
 You can use one of the available Hugo themes or create a custom theme. To add a theme, navigate to your site's root directory and run:
 
@@ -72,13 +72,13 @@ git init
 git submodule add <theme-repository-url> themes/<theme-name>
 ```
 
-## 5. Configure Your Website
+### 5. Configure Your Website
 
 Navigate to your site's root directory. Edit the `config.toml` file to configure site settings, including theme selection, title, and other options.
 
 Note that newer versions of Hugo recommend naming the configuration file to `hugo.toml`
 
-## 6. Create Content
+### 6. Create Content
 
 Hugo uses content files in Markdown format. You can create new content by running:
 
@@ -88,7 +88,7 @@ hugo new posts/my-first-post.md
 
 Replace `my-first-post.md` with your desired content file name.
 
-## 7. Start the Hugo Server
+### 7. Start the Hugo Server
 
 To preview your site locally, run the Hugo server with the following command:
 
@@ -98,7 +98,7 @@ hugo server -D
 
 The `-D` flag enables draft content to be displayed.
 
-## 8. Access Your Site Locally
+### 8. Access Your Site Locally
 
 Open a web browser and go to `http://localhost:1313` to see your website locally. You can make changes, and the server will automatically refresh the site.
 
@@ -190,7 +190,7 @@ If you want to use a custom domain (eg. [example.com](http://www.example.com)), 
 If you have general inquiries, feedback, or suggestions for improvements, please feel free to contact me using the provided email in the "Contact" section of the website. I'll get back to you as soon as possible.
 
 Alternatively, you can connect with me on social media:
-- [Twiiter](https://twitter.com/blipovski)
+- [Twitter](https://twitter.com/blipovski)
 - [LinkedIn](https://linkedin/in/blipovski)
 - [GitHub](https://github.com/blipovski)
 
