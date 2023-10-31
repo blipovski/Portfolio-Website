@@ -51,11 +51,11 @@ This personal portfolio website comes with a range of features and functionaliti
 
 To get started with your Hugo website, follow these steps:
 
-#### 1. Install Hugo
+### 1. Install Hugo
 
 First, you need to install Hugo. You can download the latest version from the [Hugo releases page](https://github.com/gohugoio/hugo/releases).
 
-#### 2. Verify Installation
+### 2. Verify Installation
 
 After installation, open your terminal and run the following command to ensure Hugo is installed correctly:
 
@@ -65,7 +65,7 @@ hugo version
 
    You should see the installed Hugo version displayed.
 
-#### 3. Create a New Hugo Site
+### 3. Create a New Hugo Site
 
 Navigate to the directory where you want to create your Hugo website. Run the following command to create a new site:
 
@@ -75,7 +75,7 @@ hugo new site my-portfolio
 
 Replace `my-portfolio` with the name of your website.
 
-#### 4. Choose a Theme
+### 4. Choose a Theme
 
 You can use one of the available Hugo themes or create a custom theme. To add a theme, navigate to your site's root directory and run:
 
@@ -84,13 +84,13 @@ git init
 git submodule add <theme-repository-url> themes/<theme-name>
 ```
 
-#### 5. Configure Your Website
+### 5. Configure Your Website
 
 Navigate to your site's root directory. Edit the `config.toml`file to configure site settings, including theme selection, title, and other options.
 
 Note that newer versions of Hugo recommend naming the configuration file to `hugo.toml`
 
-#### 6. Create Content
+### 6. Create Content
 
 Hugo uses content files in Markdown format. You can create new content by running:
 
@@ -100,7 +100,7 @@ hugo new posts/my-first-post.md
 
 Replace `my-first-post.md` with your desired content file name.
 
-#### 7. Start the Hugo Server
+### 7. Start the Hugo Server
 
 To preview your site locally, run the Hugo server with the following command:
 
@@ -110,13 +110,13 @@ hugo server -D
 
 The `-D` flag enables draft content to be displayed.
 
-#### 8. Access Your Site Locally
+### 8. Access Your Site Locally
 
 Open a web browser and go to `http://localhost:1313` to see your website locally. You can make changes, and the server will automatically refresh the site.
 
 # Usage
 
-#### Theme Customization
+### Theme Customization
 
 The website's theme can be customized to reflect your personal branding and style. If you would like the follow this website, use the [Hugo-Profile](https://github.com/gurusabarish/hugo-profile)theme. To add a template, follow these steps:
 
@@ -125,7 +125,7 @@ The website's theme can be customized to reflect your personal branding and styl
 3. Customize the theme's settings by modifying the theme's configuration files (typically `hugo.toml`, but `config.toml` is also used).
 4. You can explore other Hugo themes available on the Hugo Themes website ([https://themes.gohugo.io/](https://themes.gohugo.io/)). Follow the theme's documentation for installation and customization instructions.
 
-#### Content Customization
+### Content Customization
 
 You can personalize the content of your website to showcase your work, projects, and expertise. Here's how:
 
@@ -136,11 +136,11 @@ You can personalize the content of your website to showcase your work, projects,
 5. Insert images and media into your content using Markdown syntax. You can place image files in the appropriate directories and reference them in your content files.
 6. Configure navigation menus and links in your website's configuration file (usually `config.toml`). You can add or remove menu items and specify their order.
 
-#### Layout Customization
+### Layout Customization
 
 Refer to the [hugo-profile theme guidelines](https://themes.gohugo.io/themes/hugo-profile/) for layout customization guidelines.
 
-#### Configuration Customization
+### Configuration Customization
 
 Fine-tune your website's settings and configurations to meet your specific needs:
 
@@ -154,7 +154,7 @@ Refer to the [hugo-profile theme guidelines](https://themes.gohugo.io/themes/hug
 
 This portfolio website was deployed using [GitHub Pages](https://pages.github.com/). Follow this guide to deploy your website:
 
-#### 1. Push Your Website Files to the Repository
+### 1. Push Your Website Files to the Repository
 
 Push your Hugo website source code to the GitHub repository you've just created. You can use Git to do this.
 
@@ -175,7 +175,7 @@ git remote add origin https://github.com/your-username/your-repo.git
 git push -u origin master
 ```
 
-#### 2. Build Your Website
+### 2. Build Your Website
 
 Before deploying, you need to build your Hugo website by generating the static HTML files. In your project directory, run:
 
@@ -185,15 +185,15 @@ hugo
 
 This command will create a `public` directory with your generated website files.
 
-#### 3. GitHub Pages Configuration
+### 3. GitHub Pages Configuration
 
 To configure GitHub Pages for your repository, refer to the [Hugo documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/) for the steps to configure GitHub Pages and create an workflow action.
 
-#### 4. Access Your Website
+### 4. Access Your Website
 
 Your website will be available at `https://your-username.github.io/your-repository`. It may take a few minutes for the changes to propagate.
 
-#### 5. Custom Domain (Optional)
+### 5. Custom Domain (Optional)
 
 If you want to use a custom domain (eg. [example.com](http://www.example.com)), you can configure it in the GitHub Pages settings. Make sure to set up the necessary DNS records for your custom domain to [point to GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site). 
 
