@@ -41,7 +41,7 @@ This personal portfolio website comes with a range of features and functionaliti
 # Technologies Used
 
 - [Hugo](https://github.com/gohugoio/hugo)
-- [Hugo Profile](https://github.com/gurusabarish/hugo-profile)(Theme)
+- [Hugo Profile](https://github.com/gurusabarish/hugo-profile) (Theme)
 - Go
 - HTML/CSS
 - JavaScript
