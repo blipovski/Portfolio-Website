@@ -86,7 +86,7 @@ git submodule add <theme-repository-url> themes/<theme-name>
 
 ### 5. Configure Your Website
 
-Navigate to your site's root directory. Edit the `config.toml`file to configure site settings, including theme selection, title, and other options.
+Navigate to your site's root directory. Edit the `config.toml` file to configure site settings, including theme selection, title, and other options.
 
 Note that newer versions of Hugo recommend naming the configuration file to `hugo.toml`
 
