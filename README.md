@@ -3,15 +3,15 @@
 Welcome to my personal portfolio website! This website is designed to serve as a showcase of my education, skills, and experiences in a visually appealing and informative manner. Whether you're a potential employer, a colleague, or someone interested in my projects, this portfolio offers an insight into who I am and what I do.
 
 # Table of Contents
-- [[#Description]]
-- [[#Features]]
-- [[#Technologies Used]]
-- [[#Installation]]
-- [[#Usage]]
-- [[#Deployment]]
-- [[#Support and Contact]]
-- [[#License]]
-- [[#Acknowledgments]]
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [#Usage](#usage)
+- [Deployment](#deployment)
+- [#Support and Contact](#support-and-contact)
+- [#License](#license)
+- [#Acknowledgments](#acknowledgments)
 
 # Features
 
