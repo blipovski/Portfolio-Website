@@ -7,11 +7,11 @@ Welcome to my personal portfolio website! This website is designed to serve as a
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [#Usage](#usage)
+- [Usage](#usage)
 - [Deployment](#deployment)
-- [#Support and Contact](#support-and-contact)
-- [#License](#license)
-- [#Acknowledgments](#acknowledgments)
+- [Support and Contact](#support-and-contact)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 # Features
 
@@ -41,7 +41,7 @@ This personal portfolio website comes with a range of features and functionaliti
 # Technologies Used
 
 - [Hugo](https://github.com/gohugoio/hugo)
-- [Hugo Profile](https://github.com/gurusabarish/hugo-profile)(Theme)
+- [Hugo Profile](https://github.com/gurusabarish/hugo-profile) (Theme)
 - Go
 - HTML/CSS
 - JavaScript
