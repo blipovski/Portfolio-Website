@@ -17,26 +17,14 @@ Welcome to my personal portfolio website! This website is designed to serve as a
 
 This personal portfolio website comes with a range of features and functionalities to showcase my work and make the user experience engaging and informative. Here are some of the key features:
 
- - **Responsive Design**: 
-	The website is designed to be fully responsive, ensuring it looks and functions well on various devices, including desktops, tablets, and mobile phones.
-- **Portfolio Showcase**: 
-	This website highlights my professional experience, education, past projects and more. 
-- **Customizable Theme**: 
-	The website's theme is easily customizable, allowing me to personalize the look and feel to match your my personal branding.
-- **Blog Section**: 
-	The blog section hosts my writing samples. Additionally, I showcase past projects and initiatives outside of my academic literature. 
-- **Contact Information**:
-	Website provides easy access to my email and various social media pages. Additionally, my CV is included for visitors to download and view.
-- **Interactive Elements**: 
-	Enhance user engagement with interactive features like animations, hover effects, or interactive portfolios.
-- **Analytics & Optimization**:
-	Implements best practices for SEO to improve the website's visibility in search engine results. Additionally, the website is integrated with Google Analysts 4.
-- **GitHub Integration**:
-	Website is integrated with GitHub repositories. Theme repositories are located in a submodule. 
-- **Accessibility**: 
-	Follows accessibility guidelines (eg. WCAG) and best practices for ensuring usability for individuals with disabilities.
-- **Fast Loading**:
-	Website's performance to optimized for quick loading times and a smooth user experience.
+- Responsive Design
+- Portfolio Showcase
+- Customizable Theme
+- Writing Samples (Blog Section) 
+- Contact Information
+- Interactive Elements
+- Analytics & Optimization
+- Fast Loading
 
 # Technologies Used
 
@@ -86,7 +74,7 @@ git submodule add <theme-repository-url> themes/<theme-name>
 
 ### 5. Configure Your Website
 
-Navigate to your site's root directory. Edit the `config.toml`file to configure site settings, including theme selection, title, and other options.
+Navigate to your site's root directory. Edit the `config.toml` file to configure site settings, including theme selection, title, and other options.
 
 Note that newer versions of Hugo recommend naming the configuration file to `hugo.toml`
 
@@ -202,7 +190,7 @@ If you want to use a custom domain (eg. [example.com](http://www.example.com)), 
 If you have general inquiries, feedback, or suggestions for improvements, please feel free to contact me using the provided email in the "Contact" section of the website. I'll get back to you as soon as possible.
 
 Alternatively, you can connect with me on social media:
-- [Twiiter](https://twitter.com/blipovski)
+- [Twitter](https://twitter.com/blipovski)
 - [LinkedIn](https://linkedin/in/blipovski)
 - [GitHub](https://github.com/blipovski)
 
