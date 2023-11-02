@@ -1,12 +1,14 @@
-::: center
-**The Healthcare Liasion Officer: An Intervention Framework to Promote
-Health and Huamnity within Canada's Federal Carceral System**\
-Ben Lipovski\
-SPPH 481C Term Paper\
-April 16, 2023
-:::
+---
+title: "The Healthcare Liasion Officer: An Intervention Framework to Promote
+Health and Huamnity within Canada's Federal Carceral System"
+date: 2023-04-16
+author: "Ben Lipovski"
+draft: false
+image: /images/ubc.jpg
+description: "This is a placeholder for a writing sample or project."
+---
 
-# Literature Review
+## Literature Review
 
 Since the introduction of the 1984 Canada Health Act, Canadians have
 enjoyed the benefits of universal medicade; however, the same cannot be
@@ -71,7 +73,7 @@ an intervention framework that fits the current logistic timeline, so
 that consensus can be reached for the promotion of health within the
 legal, financial, and political bureaucratic constraints.
 
-# Commentary
+## Commentary
 
 Solving any systematic problem, let alone all of them together, is as
 complex a challenge as even selecting a place to approach it. Moreover,
@@ -83,7 +85,7 @@ the purpose of this intervention is to use the systems already present
 to build on the already known strengths and develop a meaningful
 short-term impact on a current and pressing challenge.
 
-## The Healthcare Liaison Officer (HLO)
+### Healthcare Liaison Officer
 
 Given the humanistic approach of this paper, individuals working within
 the Healthcare Liaison Officers' (HLO) authority set out their mandate.
@@ -123,9 +125,10 @@ continuity of care.
 
 ![Managerial Organization of the Health Care Lesion Officers (HLO),
 within the Correction Service of Canada (CSC) and Ministry of Public
-Safety.](images/Plan-B.jpg){#fig:my_label width="0.9\\linewidth"}
+Safety.](/images/hcLiasionDiagram.jpg)
 
-## Healthcare Education
+
+### Healthcare Education
 
 The ladder of this statement is critical to focus on, as people facing
 incarceration are less likely to engage in the healthcare system. When
@@ -161,7 +164,7 @@ mandate of this intervention framework, education and human connection
 provide conditions such that individuals can and believe that they can
 achieve better health.
 
-## Continuity of Care
+### Continuity of Care
 
 Likewise with all healthcare services in the community, maintaining
 continuity of care is a pillar of medicine and the promotion of patient
@@ -209,7 +212,7 @@ providers, and the system in general are aimed at improving health and
 wellness, the individual is more likely to continue working towards such
 objectives [@{.Hu+2020}; @bks.Venters2022; @rprt.UnitedNations2016].
 
-# Conclusion
+## Conclusion
 
 While the superficial mandate of this intervention is education and the
 promotion of continuity of healthcare, its primary strength is the

@@ -173,7 +173,7 @@ params:
   # Experience
   experience:
     enable: true
-    title: "Professional Experience"
+    # title: "Custom Name"
     items:
       - job: "Educator"
         company: "Lululemon"
