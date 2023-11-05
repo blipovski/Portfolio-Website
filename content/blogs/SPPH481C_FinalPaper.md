@@ -5,8 +5,6 @@ author: "Ben Lipovski"
 draft: false
 image: /images/ubc.jpg
 description: "This is a placeholder for a writing sample or project."
-bibliography: /Users/benlipovski/Desktop/Xref.bib
-csl: /Users/benlipovski/Desktop/vancouver.csl
 ---
 
 ## Literature Review
