@@ -26,12 +26,12 @@ Menus:
   main:
     - identifier: blog
       name: Blog
-      title: Blog posts
+      title: Blog Posts 
       url: /blogs
       weight: 1
     - identifier: gallery
       name: Gallery
-      title: Blog posts
+      title: Gallery
       url: /gallery
       weight: 2
     #Dropdown menu
@@ -54,9 +54,11 @@ Menus:
 
 params:
   title: "BL Portfolio"
-  description: Ben Lipovski's Portfolio Website
+  description: "Ben Lipovski's Portfolio Website"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
+  
+  copyright: "Benjamin Lipovski"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -81,24 +83,23 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  # color preference
-  # color:
-    # textColor:
-    # secondaryTextColor:
-    # backgroundColor:
-    # secondaryBackgroundColor:
-    # primaryColor: 
-    # secondaryColor:
+#  color: [WIP, TABLED ON 2023-11-05]
+#
+#    textColor: "#1F3735" # UI-Scheme: Gable Green
+#    secondaryTextColor: "#52605F" # UI-Scheme: Scarpa Flow
+#    backgroundColor: "#F4F5F5" # UI-Scheme: Wild Sand
+#    secondaryBackgroundColor: "#00221e" 
+#    primaryColor: "#00A997" # Master Brand Palette: Primary
+#    secondaryColor: "#E5F3F1" # Master Brand Palette: Secondary
+#
+#    darkmode:
+#      textColor: "#F4F5F5"
+#      secondaryTextColor: "#D5D8D8"
+#      backgroundColor: "#00221E"
+#      secondaryBackgroundColor: "#F4F5F5"
+#      primaryColor: "#00A997"
+#      secondaryColor: "#E5F3F1"
 
-    # darkmode:
-      # textColor: 
-      # secondaryTextColor:
-      # backgroundColor: 
-      # secondaryBackgroundColor: 
-      # primaryColor: 
-      # secondaryColor:
-
-  # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
@@ -108,10 +109,10 @@ params:
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
-      disableProjects: false
-      disableAchievements: false
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -128,7 +129,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: https://example.org
       download: true
       newPage: false
     socialLinks:
@@ -289,50 +290,31 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: "Inclusivity & the Olympic Athlete: A Case Study of Foekje Dillema"
+        content: "This manuscript was submitted for KIN 364 (The Modern Olympics) at the University of British Columbia. This manuscript was graded an A+."
+        image: /images/KIN364_img_MidtermPaper.jpg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Read
+          link: /blogs/kin364_midtermpaper
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "pdf"
         links:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: "The Healthcare Liasion Officer: An Intervention Framework to Promote Health and Huamnity within Canada's Federal Carceral System"
+        content: "This manuscript was submitted for SPPH 481C (Prison Health) at the University of British Columbia. This manuscript was graded an ???."
+        image: /images/ubc.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Read
+          link: /blogs/spph481c_finalpaper
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "LaTeX"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
@@ -346,14 +328,13 @@ params:
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
-
   footer:
     # recentPosts:
-      # path: "blogs"
-      # count: 3
-      # title: Recent Posts
-      # enable: true
-      # disableFeaturedImage: false
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/blipovski
       linkedin: https://linkedin.com/in/blipovski
@@ -361,7 +342,7 @@ params:
 
   # List pages like blogs and posts
   listPages:
-    disableFeaturedImage: true
+    disableFeaturedImage: false
 
   # Single pages like blog and post
   singlePages:
@@ -375,7 +356,7 @@ params:
   terms:
     read: "Read"
     toc: "Table Of Contents"
-    copyright: "All rights reserved"
+    copyright: "Copyright"
     pageNotFound: "Page not found"
     emailText: "Check out this site"
 
