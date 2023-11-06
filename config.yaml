@@ -178,13 +178,25 @@ params:
     items:
       - job: "Educator"
         company: "Lululemon"
-        companyUrl: "https://example.com"
+        companyUrl: https://shop.lululemon.com/stores/ca/vancouver/robson
         date: "Jun 2023 - Sep 2023"
         featuredLink:
           enable: false
-          name: "View the project"
-          url: "https://example.com"
-        content: "text."
+          name: 
+          url:
+        info:
+          enable: false
+          content: 
+        content: |
+          Lululemon Athletica is a Vancouver-based athletic apparel company specializing in high-quality, stylish yoga and activewear. Known for its global presence and commitment to comfort and fashion in fitness attire, they are an leading player in the athleisure trend.
+
+          During my time at Lululemon, I worked at the Robson Street location: Lululemon's flagship store. At one of their most bustling and top-performing global stores, I thrived in a fast-paced setting, adeptly assisting multiple guests simultaneously while consistently addressing their unique requirements.
+
+          My tasks included: 
+            - Provided exceptional customer service, offering expert guidance on product selection and fostering positive customer relationships.
+            - Demonstrated a deep understanding of Lululemon's brand ethos and product lines, conveying this knowledge to customers effectively.
+            - Actively contributed to visual merchandising and store presentation, ensuring an inviting and on-brand shopping experience.
+            - Maintained a high level of product knowledge, staying up-to-date with new collections and product features.
 
       - job: "Sales Associate & Social Media Coordinator"
         company: "Forerunners"
@@ -194,49 +206,75 @@ params:
           enable: false
           url: "https://example.com"
         info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          enable: false
+          content:
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          Forerunners is Vancouver's provider of top quality running products, expert advise, and running clinics taught by former Olympian runners. With a mission of providing the best experience possible to runners, walkers, and fitness enthusiasts alike, Forerunners seeks to empower, educate, and supply guests towards their fitness goals.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          As a sales associate, I worked one-on-one with guests to:
+            - Provide consultation and expert guidance to guests in selecting an appropriate and preferential running shoes and accessories.
+            - Navigate guests through the complex world of running shoes and accessories, such that they feel confident and informed in their purchases. 
+            - Empower guests to pursue their own fitness and running goals.
+
+          As the social media coordinator, my tasks included:
+            - Developing social media content for Instagram, Facebook, Twitter, and Strava to promote community engagement, brand awareness, and e-commerce retention.
+            - Developing documentation and structured digital filing for standards in social media policies and procedures.
 
       - job: "Move U Crew Lead"
         company: "UBC Recreation"
-        companyUrl: "https://recreation.ubc.ca/get-moving/move-u-crew/"
+        companyUrl: https://recreation.ubc.ca/get-moving/move-u-crew
         date: "Sep 2020 - Aug 2021"
+        featuredLink:
+          enable: false
+          url: 
         info:
           enable: false
-          name: "View the Project"
-          url: "https://wellbeing.ubc.ca/wellbeing-campaigns-and-initiatives/move-ubc"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: 
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          The Move U Crew are UBC's movement specialists with experience in promoting engaging, accessible, and holistic physical activities.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          As lead of the Move U Crew, my tasks included:
+            - Managed a team of five individuals to promote health, movement, and wellbeing across UBC’s diverse community.
+            - Developed and led a diverse online and in-person catalog of movement inspired services and media.
+            - Mobilized a team and community partners in programing events for a campus-wide health promotion campaign.
 
       - job: "Research Assistant"
         company: "University of Calgary"
-        companyUrl: "https://example.com"
+        companyUrl: https://cumming.ucalgary.ca/research/child-active-transportation-safety-environment
         date: "May 2019 - Aug 2019"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          name: "Study Website"
+          url: https://cumming.ucalgary.ca/research/child-active-transportation-safety-environment
+        info:
+          enable: false
+          name: 
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          The [CHild Active-Transportation Safety and the Environment](https://www.ucalgary.ca/urbanalliance/projects/chase-child-active-transportation-safety-and-environment) (CHASE) is a research project within the University of Calgary, Cumming School of Medicine, Department of Pediatrics. Under the leadership of Dr. Brent Hagel (princible investigator), the CHASE study seeks to understand how features of the built environment influance the risk of injuries for children. The vision of the study is to make streets safer for children.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          Within the CHASE project, I worked as a research assistant for the BIKE study: a project that seeks to understand the corrilation between bike-related injuries and features of the built environment. 
+
+          My tasks included:
+            - Coordinated the screening and intake of children presenting to the Alberta Children’s Hospital Emergency Department for study intake.
+            - Completed and presented research literature on child bicycle related injuries in pursuit of creating a safer built environment.
 
       - job: "Day Camp Leader"
         company: "Westside Recreation"
-        companyUrl: "https://example.com"
+        companyUrl: https://www.westsiderec.com/
         date: "Jun 2017 - Sep 2018"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        featuredLink:
+          enable: false
+          name: 
+          url: 
+        info:
+          enable: false
+          name: 
+        content: |
+          Westside Recreation Centre is a community is a community recreation facility in Southwest, Calgary. A range of ammenities and facilities are avalible, particiularlly summer day camps for children aged 5-12.
+
+           As a Day Camp Leader, my taks included:
+             - Leading children between the ages of 5-12 in games and activities that ensured their engagement, safety, and enjoyment.
+             - Collaborating with day camp volunteers while also nurturing an engaging experience for their own learning and personal development. 
 
   # Education
   education:
@@ -251,16 +289,12 @@ params:
         date: "2018 - 2024"
         GPA: "0.0 out of 0.0"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Placeholder
+          Placeholder
+          Placeholder
         featuredLink:
           enable: true
-          name: "My academic record"
+          name: "Academic Record"
           url: "https://example.com"
       - title: "High School Diploma"
         school:
@@ -268,9 +302,13 @@ params:
           url: "https://school.cbe.ab.ca/school/ErnestManning/Pages/default.aspxg"
         date: "2015 – 2018"
         GPA: "0.0 out of 0.0"
+        content:
+          Placeholder
+          Placeholder
+          Placeholder
         featuredLink:
-          enable: true
-          url: "https://example.com"
+          enable: false
+          url:
 
   # Achievements
   achievements:
@@ -278,12 +316,13 @@ params:
     # title: "Custom Name"
     items:
       - title: CHASE Summer Studentship
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
+        content: wip
+        url:
+        image: /images/ucalgary.jpg
       - title: Alexander Rutherford Scholarship
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
+        content: wip
+        url:
+        image: /images/alberta-education.jpg
 
   # projects
   projects:
