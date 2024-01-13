@@ -6,6 +6,7 @@ draft: false
 image: /images/KIN364_img_MidtermPaper.jpg
 description: "This manuscript was submitted for the term paper of KIN 364 (The Modern Olympics) at the University of British Columbia. This manuscript was graded an A+."
 link-citations: true
+attributes:
 ---
 
 Image: [Foekje Dillema](https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a8c9d974-d0b4-102d-bcf8-003048976d84) © Nationaal Archief, used under [CC BY-SA 3.0 nl](https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en)

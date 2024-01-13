@@ -24,33 +24,38 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog Posts 
-      url: /blogs
+    - identifier: Projects
+      name: Projects
+      title: Projects 
+      url: /projects
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
+    - identifier: Publications
+      name: Publications
+      title: Publications
+      url: /publications
       weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+#    - identifier: gallery
+#      name: Gallery
+#      title: Gallery
+#      url: /gallery
+#      weight:
+#    Dropdown menu
+#     - identifier: dropdown
+#       title: Example dropdown menu
+#       name: Dropdown
+#       weight: 3
+#     - identifier: dropdown1
+#       title: example dropdown 1
+#       name: example 1
+#       url: /#
+#       parent: dropdown
+#       weight: 1
+#     - identifier: dropdown2
+#       title: example dropdown 2
+#       name: example 2
+#       url: /#
+#       parent: dropdown
+#       weight: 2
 
 params:
   title: "BL Portfolio"
@@ -180,6 +185,7 @@ params:
         company: "Lululemon"
         companyUrl: https://shop.lululemon.com/stores/ca/vancouver/robson
         date: "Jun 2023 - Sep 2023"
+        logo: "/images/logos/Lululemon.png"
         featuredLink:
           enable: false
           name: 
@@ -188,20 +194,24 @@ params:
           enable: false
           content: 
         content: |
-          Lululemon Athletica is a Vancouver-based athletic apparel company specializing in high-quality, stylish yoga and activewear. Known for its global presence and commitment to comfort and fashion in fitness attire, they are an leading player in the athleisure trend.
-
-          During my time at Lululemon, I worked at the Robson Street location: Lululemon's flagship store. At one of their most bustling and top-performing global stores, I thrived in a fast-paced setting, adeptly assisting multiple guests simultaneously while consistently addressing their unique requirements.
-
-          My tasks included: 
-            - Provided exceptional customer service, offering expert guidance on product selection and fostering positive customer relationships.
-            - Demonstrated a deep understanding of Lululemon's brand ethos and product lines, conveying this knowledge to customers effectively.
-            - Actively contributed to visual merchandising and store presentation, ensuring an inviting and on-brand shopping experience.
-            - Maintained a high level of product knowledge, staying up-to-date with new collections and product features.
+          Driven by a passion for movement and human connection, I thrived at Lululemon Robson Street as an Educator. Mastering the bustling energy of Lululemon Robson Street, I effortlessly assisted multiple guests, tailoring personalized product recommendations and expert fit guidance, crafting a welcoming, inclusive community that felt like a one-on-one haven amidst the movement.
+          
+          My superpowers included:
+          - **Movement Expertise:** A deep understanding of Lululemon's technical apparel and its ability to enhance various athletic pursuits, from yoga and running to strength training and beyond.
+          - **Guest-Centric Approach:** Building genuine connections with guests to understand their individual needs and goals, resulting in personalized recommendations that fueled their active journeys.
+          - **Fit Guru:** Mastering the art of the perfect fit, ensuring guests felt confident and comfortable in their Lululemon gear, ready to conquer any workout.
+          - **Community Builder:** Fostering a welcoming and inclusive atmosphere within the store, creating a space where guests felt supported, motivated, and part of something bigger.
+          - **Team Player:** Collaborating seamlessly with colleagues to create a positive and productive store environment, driving sales and exceeding customer expectations.
+          
+          Beyond the day-to-day, I actively contributed to the store's success through:
+          - **Championing Lululemon's core values:** Promoting inclusivity and fostering a sense of belonging within the store.
+          - **Continuously learning and growing:** Staying up-to-date on industry trends and Lululemon's product innovations to provide guests with the best possible experience. 
 
       - job: "Sales Associate & Social Media Coordinator"
         company: "Forerunners"
         companyUrl: "https://example.com"
         date: "Jul 2020 - Sep 2022"
+        logo: "/images/logos/Forerunners.png"
         featuredLink:
           enable: false
           url: "https://example.com"
@@ -210,20 +220,21 @@ params:
           content:
         content: |
           Forerunners is Vancouver's provider of top quality running products, expert advise, and running clinics taught by former Olympian runners. With a mission of providing the best experience possible to runners, walkers, and fitness enthusiasts alike, Forerunners seeks to empower, educate, and supply guests towards their fitness goals.
-
+          
           As a sales associate, I worked one-on-one with guests to:
-            - Provide consultation and expert guidance to guests in selecting an appropriate and preferential running shoes and accessories.
-            - Navigate guests through the complex world of running shoes and accessories, such that they feel confident and informed in their purchases. 
-            - Empower guests to pursue their own fitness and running goals.
-
-          As the social media coordinator, my tasks included:
-            - Developing social media content for Instagram, Facebook, Twitter, and Strava to promote community engagement, brand awareness, and e-commerce retention.
-            - Developing documentation and structured digital filing for standards in social media policies and procedures.
+          - **Spirit of an Olympian:** Unlocked hidden potential in every stride, from first-timers to seasoned veterans, through personalized shoe consultations and expert advice.
+          - **Shoe Whisperer:** Untangled the labyrinth of running shoes options, empowering guests to feel confident and informed in the gear that fuels their running journeys.
+          - **Beyond the Fitting Room:** Empowered guests to pursue their own fitness and running goals.
+          
+          Additionally, as the social media coordinator, my tasks included:
+          - **Social Media Architect:** Developed social media content for Instagram, Facebook, Twitter, and Strava to promote community engagement, brand awareness, and e-commerce retention.
+          - **Documented Fortress:** Established a long-term online brand strategy by developing documentation and standardized policies and procedures.
 
       - job: "Move U Crew Lead"
         company: "UBC Recreation"
         companyUrl: https://recreation.ubc.ca/get-moving/move-u-crew
         date: "Sep 2020 - Aug 2021"
+        logo: "/images/logos/UbcRecreation.png"
         featuredLink:
           enable: false
           url: 
@@ -232,16 +243,26 @@ params:
           name: 
         content: |
           The Move U Crew are UBC's movement specialists with experience in promoting engaging, accessible, and holistic physical activities.
-
-          As lead of the Move U Crew, my tasks included:
-            - Managed a team of five individuals to promote health, movement, and wellbeing across UBC’s diverse community.
-            - Developed and led a diverse online and in-person catalog of movement inspired services and media.
-            - Mobilized a team and community partners in programing events for a campus-wide health promotion campaign.
+          
+          Leadership & Teamwork:
+          - **Captain of the Crew:** Managed a team of five individuals to promote health, movement, and well-being across UBC’s diverse community.
+          - **Building the Bridge:** Empowered my teammates to unleash their inner movement maestros, trusting their strengths and letting them rock their own programs.
+          - **Building a Movement Movement:** Mobilized a team and community partners in programming events for a campus-wide health promotion campaign.
+          
+          Program Development & Innovation:
+          - **From Bland to Bonanza:** By ditching the yawn-inducing corporate cookie-cutter approach, I transformed mandatory team-building into adventures participants couldn't wait to join.
+          - **Movement Mosaic:** Spearheaded the creation and expansion of the Move U Crew's diverse program catalogue, ensuring an inclusive range of engaging, accessible, and holistic movement offerings for online and in-person participation.
+          - **Science-Fueled Fun:** Championed evidence-based approaches to physical activity promotion, incorporating research findings into program design and ensuring impactful outcomes for student well-being.
+          
+          Community Engagement & Impact:
+          - **Move UBC:** Mobilized the Move U Crew and external partners to organize impactful events during the campus-wide health promotion campaign 'Move UBC'.
+          - **Campus Connections:** Cultivated strong relationships with student groups, faculty, and campus departments, collaborating effectively to foster a culture of holistic well-being at UBC.
 
       - job: "Research Assistant"
         company: "University of Calgary"
         companyUrl: https://cumming.ucalgary.ca/research/child-active-transportation-safety-environment
         date: "May 2019 - Aug 2019"
+        logo: "/images/logos/UniversityOfCalgary.png"
         featuredLink:
           enable: true
           name: "Study Website"
@@ -250,18 +271,20 @@ params:
           enable: false
           name: 
         content: |
-          The [CHild Active-Transportation Safety and the Environment](https://www.ucalgary.ca/urbanalliance/projects/chase-child-active-transportation-safety-and-environment) (CHASE) is a research project within the University of Calgary, Cumming School of Medicine, Department of Pediatrics. Under the leadership of Dr. Brent Hagel (princible investigator), the CHASE study seeks to understand how features of the built environment influance the risk of injuries for children. The vision of the study is to make streets safer for children.
-
-          Within the CHASE project, I worked as a research assistant for the BIKE study: a project that seeks to understand the corrilation between bike-related injuries and features of the built environment. 
-
-          My tasks included:
-            - Coordinated the screening and intake of children presenting to the Alberta Children’s Hospital Emergency Department for study intake.
-            - Completed and presented research literature on child bicycle related injuries in pursuit of creating a safer built environment.
+          Supervisor: Dr. Brent Hagel
+          
+          CHASE (CHild Active-Transportation Safety and the Environment) is a research program funded by the Canadian Institutes for Health Research and based at the Cumming School of Medicine at the University of Calgary. By pinpointing environmental factors affecting child pedestrian and cyclist safety, crafting evidence-based recommendations for safer communities, and championing their implementation, CHASE aims to build healthier and more active cities for all.
+          
+          As an undergraduate research assistant, my tasks included:
+          - Coordinated the screening and intake of children presenting to the Alberta Children’s Hospital Emergency Department for study intake.
+          - Completed and presented research literature on child bicycle related injuries in pursuit of creating a safer built environment.
+          - Championing safer streets, one bandage at a time: Coordinated emergency intake for injured young explorers at the Alberta Children's Hospital, fueled by a passion for child safety and better bike infrastructure.
 
       - job: "Day Camp Leader"
         company: "Westside Recreation"
         companyUrl: https://www.westsiderec.com/
         date: "Jun 2017 - Sep 2018"
+        logo: "/images/logos/WestsideRecreationCentre.png"
         featuredLink:
           enable: false
           name: 
@@ -270,11 +293,11 @@ params:
           enable: false
           name: 
         content: |
-          Westside Recreation Centre is a community is a community recreation facility in Southwest, Calgary. A range of ammenities and facilities are avalible, particiularlly summer day camps for children aged 5-12.
-
-           As a Day Camp Leader, my taks included:
-             - Leading children between the ages of 5-12 in games and activities that ensured their engagement, safety, and enjoyment.
-             - Collaborating with day camp volunteers while also nurturing an engaging experience for their own learning and personal development. 
+          Westside Recreation Centre is a community recreation facility in Southwest Calgary. A range of amenities and facilities are available, particularly summer day camps for children aged 5-12.
+          
+          As a Day Camp Leader, my tasks included:
+          - Leading children between the ages of 5-12 in games and activities that ensured their engagement, safety, and enjoyment.
+          - Collaborating with day camp volunteers while also nurturing an engaging experience for their own learning and personal development.
 
   # Education
   education:
@@ -285,27 +308,25 @@ params:
       - title: "Bachelor of Kinesiology"
         school:
           name: "University of British Columbia"
-          url: "https://kin.edu.ubc.ca"
+          url:
         date: "2018 - 2024"
-        GPA: "0.0 out of 0.0"
+        logo: /images/logos/UBC.png
+        GPA:
         content: |-
-          Placeholder
-          Placeholder
-          Placeholder
+          
         featuredLink:
-          enable: true
-          name: "Academic Record"
-          url: "https://example.com"
+          enable: false
+          name:
+          url: 
       - title: "High School Diploma"
         school:
           name: "Ernest Manning High School"
-          url: "https://school.cbe.ab.ca/school/ErnestManning/Pages/default.aspxg"
+          url:
         date: "2015 – 2018"
-        GPA: "0.0 out of 0.0"
-        content:
-          Placeholder
-          Placeholder
-          Placeholder
+        logo: /images/logos/AlbertaGov.png
+        GPA:
+        content: |-
+          
         featuredLink:
           enable: false
           url:
@@ -326,7 +347,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: "Inclusivity & the Olympic Athlete: A Case Study of Foekje Dillema"
@@ -368,12 +389,12 @@ params:
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
   footer:
-    # recentPosts:
-    #   path: "blogs"
-    #   count: 3
-    #   title: Recent Posts
-    #   enable: true
-    #   disableFeaturedImage: false
+#    recentPosts:
+#      path: "Projects"
+#      count: 2
+#      title: Recent Projects
+#      enable: true
+#      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/blipovski
       linkedin: https://linkedin.com/in/blipovski
