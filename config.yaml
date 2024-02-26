@@ -337,12 +337,15 @@ params:
     # title: "Custom Name"
     items:
       - title: CHASE Summer Studentship
-        content: wip
-        url:
+        content: |
+          The CHASE Summer Studentship, valued at $6,000, acknowledges efforts in the CHASE program at the University of Calgary aimed at improving child pedestrian and cyclist safety, including coordinating child intakes at the Alberta Children’s Hospital and conducting research on bicycle-related injuries.
+
+          To explore the findings and insights from this research, access my manuscript.
+        url: /blogs/wip # <-- FIX ME!
         image: /images/ucalgary.jpg
       - title: Alexander Rutherford Scholarship
-        content: wip
-        url:
+        content: This scholarship, named in honor of Alexander Rutherford, Alberta's inaugural Premier, acknowledges and supports Alberta high school seniors for their outstanding academic achievements in grades 10-12. To qualify, students must have shown exemplary academic performance during these years and intend to pursue further education at a post-secondary institution.
+        url: 
         image: /images/alberta-education.jpg
 
   # projects
