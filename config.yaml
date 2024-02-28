@@ -161,7 +161,7 @@ params:
     content: |-
       I'm Ben Lipovski, a passionate health and wellbeing advocate researching ways to transform the healthcare and social landscape to promote health equity and individual empowerment. With a background in Kinesiology and health promotion, I strive to challenge the status quo, unravel solutions, and empower individuals to lead healthier, profoundly purposeful lives. I employ a human-first philosophy to strength-based methodologies, resulting in a more impactful approach that emphasizes intersectionality as authenticity. 
 
-      I am currently driven by the ambition to pursue graduate studies in population and public health, with an emphasis on exploring the sociocultural aspects of addition. More specifically, my interest lies in understanding the social construction and normalization of drug use within the university environment, particularly in the context of the widespread usage of study drugs. The objective of my study is to advocate for harm reduction and improve drug literacy, empowering individuals to make informed decisions that enhance their overall health and well-being.
+      I am currently driven by the ambition to pursue graduate studies in population and public health, with an emphasis on exploring the sociocultural aspects of addiction. More specifically, my interest lies in understanding the social construction and normalization of drug use within the university environment, particularly in the context of the widespread usage of study drugs. The objective of my study is to advocate for harm reduction and improve drug literacy, empowering individuals to make informed decisions that enhance their overall health and well-being.
 
     skills:
       enable: true
@@ -219,7 +219,7 @@ params:
           enable: false
           content:
         content: |
-          Forerunners is Vancouver's provider of top quality running products, expert advise, and running clinics taught by former Olympian runners. With a mission of providing the best experience possible to runners, walkers, and fitness enthusiasts alike, Forerunners seeks to empower, educate, and supply guests towards their fitness goals.
+          Forerunners is Vancouver's provider of top quality running products, expert advice, and running clinics taught by former Olympian runners. With a mission of providing the best experience possible to runners, walkers, and fitness enthusiasts alike, Forerunners seeks to empower, educate, and supply guests towards their fitness goals.
           
           As a sales associate, I worked one-on-one with guests to:
           - **Spirit of an Olympian:** Unlocked hidden potential in every stride, from first-timers to seasoned veterans, through personalized shoe consultations and expert advice.
