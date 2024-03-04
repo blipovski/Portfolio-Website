@@ -200,7 +200,7 @@ This personal portfolio website is open-source and is available under the [Apach
 
 # Acknowledgments
 
-I would like to express my gratitude to the following individuals, projects, and resources that have contributed to the development of this personal portfolio website:
+I would like to express my gratitude to the following individuals, projects, and resources that contributed to the development of this personal portfolio website:
 
 - **[Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-github/)**
 	A special thanks to the developers of Hugo for providing a fast and flexible static site generator that powers this website.
